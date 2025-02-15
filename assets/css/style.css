@@ -1,5 +1,168 @@
+.navbar {
+  padding: 24px 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+}
+.navbar-logo {
+  font-family: Integral CF;
+  font-weight: 700;
+  font-size: 32px;
+  leading-trim: Cap height;
+  line-height: 38.4px;
+  letter-spacing: 0%;
+}
+.navbar-link .links {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  align-items: center;
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.6px;
+  letter-spacing: 0%;
+}
+.navbar-search-bar {
+  display: flex;
+  background: #f0f0f0;
+  border-radius: 62px;
+  align-items: center;
+}
+.navbar-search-bar .search {
+  padding: 12px 12px 12px 16px;
+}
+.navbar-search-bar .text {
+  padding: 12px 374px 14px 0;
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.6px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.4);
+}
+@font-face {
+  font-family: "satoshi";
+  src: url("/assets/font/Satoshi_Complete/OTF/Satoshi-Regular.otf");
+}
+@font-face {
+  font-family: "Integral CF";
+  src: url("/assets/font/Integral CF/Fontspring-DEMO-integralcf-regular.otf");
+}
+.hero-section {
+  display: flex;
+  background: #f2f0f1;
+  height: 663px;
+  width: 100%;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.hero-section-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.hero-section-text-wrapper {
+  padding-top: 103px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.hero-section-text-wrapper h1 {
+  font-family: Integral CF;
+  font-weight: 700;
+  font-size: 64px;
+  leading-trim: Cap height;
+  line-height: 64px;
+  letter-spacing: 0%;
+}
+.hero-section-text-wrapper p {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: Cap height;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+.hero-section-text-wrapper .btn button {
+  padding: 16px 54px;
+  border-radius: 62px;
+  background: #000000;
+  color: #ffffff;
+}
+.hero-section-text-numbers {
+  display: flex;
+  gap: 64px;
+}
+.hero-section-text-numbers h2 {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  letter-spacing: 0%;
+}
+.hero-section-text-numbers p {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.6);
+}
+.hero-section-img {
+  width: 50%;
+  overflow: hidden;
+}
+.hero-section-img img {
+  width: 100%;
+}
+
+.brands-section {
+  background: #000000;
+}
+.brands-section .brands {
+  padding: 44px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.sign-up {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 100px 10px 544px;
+  align-items: center;
+}
+.sign-up-link {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.9px;
+  letter-spacing: 0%;
+}
+
+.click-me {
+  font-family: Satoshi;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18.9px;
+  letter-spacing: 0%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-offset: Auto;
+  text-decoration-thickness: Auto;
 }/*# sourceMappingURL=style.css.map */

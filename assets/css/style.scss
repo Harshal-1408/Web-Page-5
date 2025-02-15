@@ -1,4 +1,7 @@
 @import "navbar.scss";
+@import "font.scss";
+@import "hero-section.scss";
+@import "brands-section.scss";
 
 * {
   margin: 0;
@@ -6,4 +9,34 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
+.sign-up {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 100px 10px 544px;
+  align-items: center;
+  &-link {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 0%;
+  }
+}
+.click-me {
+  font-family: Satoshi;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18.9px;
+  letter-spacing: 0%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-offset: Auto;
+  text-decoration-thickness: Auto;
+}
