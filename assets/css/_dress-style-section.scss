@@ -1,0 +1,39 @@
+.dress-style-section {
+  padding: 0px 100px;
+  & .dress-style {
+    border-radius: 40px;
+    background: #f0f0f0;
+    padding: 70px 0 64px 0;
+    &-section-text {
+      display: flex;
+      justify-content: center;
+      font-family: Integral CF;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 57.6px;
+      letter-spacing: 0%;
+      text-align: center;
+    }
+    &-section-style{
+        padding: 64px 64px 0px 64px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        &-1{
+            display: flex;
+            gap: 20px;
+             & img{
+                width: 100%;
+             }
+        }
+        &-2{
+            display: flex;
+            gap: 20px;
+             & img{
+                width: 100%;
+             }
+        }
+        
+    }
+  }
+}

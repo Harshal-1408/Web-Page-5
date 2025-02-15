@@ -3,6 +3,8 @@
 @import "hero-section.scss";
 @import "brands-section.scss";
 @import "new-products.scss";
+@import "top-selling.scss";
+@import "dress-style-section.scss";
 
 * {
   margin: 0;
@@ -40,4 +42,8 @@
   text-decoration-style: solid;
   text-decoration-offset: Auto;
   text-decoration-thickness: Auto;
+}
+
+.line {
+  border: 1px solid #0000001a;
 }

@@ -1,0 +1,89 @@
+.top-selling {
+    padding: 72px 100px 64px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    &-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Integral CF;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 57.6px;
+      letter-spacing: 0%;
+      text-align: center;
+    }
+    & .products {
+      display: flex;
+      gap: 20px;
+      // width: 100%;
+  
+      & .product {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        & img {
+          width: 100%;
+        }
+        &-text {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          & h3 {
+            font-family: Satoshi;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 27px;
+            letter-spacing: 0%;
+          }
+          & img {
+            width: 50%;
+          }
+          & .price {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            & p {
+              font-family: Satoshi;
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 32.4px;
+              letter-spacing: 0%;
+            }
+            & .offer {
+              color: #00000066;
+  
+              text-decoration: line-through;
+            }
+            & .percentage {
+              border-radius: 62px;
+              padding: 6px 14px;
+              background: #ff33331a;
+              color: #ff3333;
+              font-family: Satoshi;
+              font-weight: 500;
+              font-size: 12px;
+              line-height: 16.2px;
+              letter-spacing: 0%;
+            }
+          }
+        }
+      }
+    }
+    & .btn {
+      display: flex;
+      justify-content: center;
+      & button {
+        border-radius: 62px;
+        padding: 16px 54px;
+        border: 1px solid #0000001a;
+        font-family: Satoshi;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21.6px;
+        letter-spacing: 0%;
+      }
+    }
+  }
+  
