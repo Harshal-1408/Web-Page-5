@@ -1,9 +1,8 @@
-.brands-section{
-    background: #000000;
-    & .brands{
-        padding: 44px 100px;
-        display: flex;
-        justify-content: space-between;
-        
-    }
+.brands-section {
+  background: #000000;
+  & .brands {
+    padding: 44px 100px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
