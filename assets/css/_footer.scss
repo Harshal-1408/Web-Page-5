@@ -1,0 +1,79 @@
+.footer {
+  background: #f0f0f0;
+  padding: 50px 100px 80px 100px;
+
+  & .content {
+    display: flex;
+    justify-content: space-between;
+    gap: 113px;
+    padding-bottom: 50px;
+    & .logo {
+      display: flex;
+      gap: 35px;
+      flex-direction: column;
+      &-text {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+      }
+      & h6 {
+        font-family: Integral CF;
+        font-weight: 700;
+        font-size: 33.45px;
+        leading-trim: Cap height;
+        line-height: 40.15px;
+        letter-spacing: 0%;
+      }
+      & span {
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0px;
+        color: #00000099;
+      }
+    }
+    & .help-menu {
+      display: flex;
+      flex-direction: column;
+      gap: 26px;
+      & .text-1 {
+        font-family: Satoshi;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 3px;
+      }
+      & .text-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0px;
+        color: #00000099;
+      }
+    }
+  }
+  & .copyrights {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & .text {
+      font-family: Satoshi;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18.9px;
+      letter-spacing: 0%;
+      text-align: right;
+      color: #00000099;
+    }
+    & .card {
+        display: flex;
+        align-content: center;
+    }
+  }
+}

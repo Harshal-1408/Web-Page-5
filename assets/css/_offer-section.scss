@@ -1,0 +1,70 @@
+.offer-section {
+  padding: 0 100px;
+
+  & .offer {
+    background: #000000;
+    border-radius: 20px;
+    padding: 36px 64px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 212px;
+    align-items: center;
+  }
+  &-text {
+    & h5 {
+      font-family: Integral CF;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 45px;
+      letter-spacing: 0%;
+      color: #ffffff;
+    }
+  }
+  &-details {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+
+    & .email {
+      display: flex;
+      width: 349px;
+      //   height: 48;
+      border-radius: 62px;
+      padding: 12px 16px;
+      gap: 12px;
+      background: #ffffff;
+      color: black;
+      align-items: center;
+      & .img {
+        display: flex;
+      }
+      & .text {
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21.6px;
+        letter-spacing: 0%;
+        color: #00000066;
+      }
+    }
+    & .subscribe {
+      display: flex;
+      width: 349px;
+      //   height: 48;
+      border-radius: 62px;
+      padding: 12px 16px;
+      gap: 12px;
+      background: #ffffff;
+      color: black;
+      align-items: center;
+      justify-content: center;
+      font-family: Satoshi;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21.6px;
+      letter-spacing: 0%;
+    }
+  }
+}

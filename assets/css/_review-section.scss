@@ -1,0 +1,68 @@
+.review-section {
+  padding: 80px 100px;
+
+  &-text {
+    display: flex;
+    justify-content: space-between;
+
+    &-wrapper {
+      font-family: Integral CF;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 57.6px;
+      letter-spacing: 0%;
+    }
+    &-arrow {
+      display: flex;
+      gap: 16px;
+      align-items: flex-end;
+    }
+  }
+  &-customer {
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    & .review {
+      border: 1px solid #0000001a;
+      border-radius: 20px;
+      padding: 28px 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 400px;
+
+      & .text {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        &-wrapper {
+          display: flex;
+          gap: 4px;
+          align-items: center;
+          & h6 {
+            font-family: Satoshi;
+            font-weight: 700;
+            font-size: 20px;
+            leading-trim: Cap height;
+            line-height: 22px;
+            letter-spacing: 0%;
+          }
+          & .img {
+            display: flex;
+            align-items: center;
+          }
+        }
+        & p {
+          font-family: Satoshi;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+          letter-spacing: 0%;
+          color: #00000099;
+
+        }
+      }
+    }
+  }
+}

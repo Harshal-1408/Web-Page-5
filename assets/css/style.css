@@ -339,6 +339,395 @@
   width: 100%;
 }
 
+.review-section {
+  padding: 80px 100px;
+}
+.review-section-text {
+  display: flex;
+  justify-content: space-between;
+}
+.review-section-text-wrapper {
+  font-family: Integral CF;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57.6px;
+  letter-spacing: 0%;
+}
+.review-section-text-arrow {
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+}
+.review-section-customer {
+  padding-top: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.review-section-customer .review {
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  border-radius: 20px;
+  padding: 28px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 400px;
+}
+.review-section-customer .review .text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.review-section-customer .review .text-wrapper {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.review-section-customer .review .text-wrapper h6 {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-size: 20px;
+  leading-trim: Cap height;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+.review-section-customer .review .text-wrapper .img {
+  display: flex;
+  align-items: center;
+}
+.review-section-customer .review .text p {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.offer-section {
+  padding: 0 100px;
+}
+.offer-section .offer {
+  background: #000000;
+  border-radius: 20px;
+  padding: 36px 64px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  gap: 212px;
+  align-items: center;
+}
+.offer-section-text h5 {
+  font-family: Integral CF;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.offer-section-details {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+}
+.offer-section-details .email {
+  display: flex;
+  width: 349px;
+  border-radius: 62px;
+  padding: 12px 16px;
+  gap: 12px;
+  background: #ffffff;
+  color: black;
+  align-items: center;
+}
+.offer-section-details .email .img {
+  display: flex;
+}
+.offer-section-details .email .text {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.6px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.4);
+}
+.offer-section-details .subscribe {
+  display: flex;
+  width: 349px;
+  border-radius: 62px;
+  padding: 12px 16px;
+  gap: 12px;
+  background: #ffffff;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  font-family: Satoshi;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.6px;
+  letter-spacing: 0%;
+}
+
+.footer {
+  background: #f0f0f0;
+  padding: 50px 100px 80px 100px;
+}
+.footer .content {
+  display: flex;
+  justify-content: space-between;
+  gap: 113px;
+  padding-bottom: 50px;
+}
+.footer .content .logo {
+  display: flex;
+  gap: 35px;
+  flex-direction: column;
+}
+.footer .content .logo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer .content .logo h6 {
+  font-family: Integral CF;
+  font-weight: 700;
+  font-size: 33.45px;
+  leading-trim: Cap height;
+  line-height: 40.15px;
+  letter-spacing: 0%;
+}
+.footer .content .logo span {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer .content .help-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.footer .content .help-menu .text-1 {
+  font-family: Satoshi;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 3px;
+}
+.footer .content .help-menu .text-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer .copyrights {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .copyrights .text {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.9px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer .copyrights .card {
+  display: flex;
+  align-content: center;
+}
+
+.icon {
+  padding: 24px 100px 36px 100px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.icon .list {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.icon .list-text {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: Cap height;
+  line-height: 21.6px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.6);
+}
+.icon .list-icon {
+  display: flex;
+  align-items: center;
+}
+
+.product-details-section {
+  padding: 0 100px 80px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-details-section-tshirt {
+  padding-right: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  justify-content: space-between;
+}
+.product-details-section-image {
+  padding-right: 40px;
+}
+.product-details-section-image img {
+  height: 100%;
+  width: 444px;
+}
+.product-details-section-text .product-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product-details-section-text .product-text .h3 {
+  padding-bottom: 14px;
+}
+.product-details-section-text .product-text h3 {
+  font-family: Integral CF;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0%;
+}
+.product-details-section-text .product-text .review-img {
+  padding-bottom: 14.29px;
+}
+.product-details-section-text .product-text img {
+  width: 193px;
+}
+.product-details-section-text .product-text .price {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.product-details-section-text .product-text .price p {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32.4px;
+  letter-spacing: 0%;
+}
+.product-details-section-text .product-text .price .offer {
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration: line-through;
+}
+.product-details-section-text .product-text .price .percentage {
+  border-radius: 62px;
+  padding: 6px 14px;
+  background: rgba(255, 51, 51, 0.1019607843);
+  color: #ff3333;
+  font-family: Satoshi;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16.2px;
+  letter-spacing: 0%;
+}
+.product-details-section-text .para {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: Cap height;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 24px;
+}
+.product-details-section-text .select-color {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: Cap height;
+  line-height: 21.6px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.6);
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+.product-details-section-text .select-color-check {
+  padding-bottom: 24px;
+}
+.product-details-section-text .select-color-check img {
+  width: 143px;
+}
+.product-details-section-text .choose-size-text {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: Cap height;
+  line-height: 21.6px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.6);
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+.product-details-section-text .choose-size {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 24px;
+}
+.product-details-section-text .choose-size .size {
+  border-radius: 62px;
+  background: #f0f0f0;
+  padding: 12px 24px;
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.6px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-details-section-text .btn {
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-details-section-text .btn .button-1 {
+  display: flex;
+  gap: 38px;
+  border-radius: 62px;
+  padding: 16px 20px;
+  background: #f0f0f0;
+  font-family: Satoshi;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.6px;
+  letter-spacing: 0%;
+  width: 170px;
+  justify-content: center;
+  align-items: center;
+}
+.product-details-section-text .btn .button-2 {
+  background: #000000;
+  padding: 16px 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 62px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -380,4 +769,9 @@
 
 .line {
   border: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+
+.line2 {
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  width: 1240px;
 }/*# sourceMappingURL=style.css.map */

@@ -5,7 +5,10 @@
 @import "new-products.scss";
 @import "top-selling.scss";
 @import "dress-style-section.scss";
-
+@import "review-section.scss";
+@import "offer-section.scss";
+@import "footer.scss";
+@import "product-details.scss";
 * {
   margin: 0;
   padding: 0;
@@ -46,4 +49,8 @@
 
 .line {
   border: 1px solid #0000001a;
+}
+.line2 {
+  border: 1px solid #0000001a;
+  width: 1240px;
 }
