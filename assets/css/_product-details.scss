@@ -212,7 +212,7 @@
 }
 
 .all-review-section {
-  padding: 24px 100px 36px 100px;
+  padding: 24px 100px 64px 100px;
   &-text {
     padding-bottom: 24px;
     display: flex;
@@ -327,6 +327,22 @@
         letter-spacing: 0%;
         color: #00000099;
       }
+    }
+  }
+  &-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 36px;
+    & button {
+      border-radius: 62px;
+      padding: 16px 54px;
+      border: 1px solid #0000001a;
+      font-family: Satoshi;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21.6px;
+      letter-spacing: 0%;
+      background-color: white;
     }
   }
 }

@@ -757,7 +757,7 @@
 }
 
 .all-review-section {
-  padding: 24px 100px 36px 100px;
+  padding: 24px 100px 64px 100px;
 }
 .all-review-section-text {
   padding-bottom: 24px;
@@ -867,6 +867,22 @@
   line-height: 22px;
   letter-spacing: 0%;
   color: rgba(0, 0, 0, 0.6);
+}
+.all-review-section-btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 36px;
+}
+.all-review-section-btn button {
+  border-radius: 62px;
+  padding: 16px 54px;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  font-family: Satoshi;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.6px;
+  letter-spacing: 0%;
+  background-color: white;
 }
 
 * {
