@@ -728,6 +728,147 @@
   border-radius: 62px;
 }
 
+.diff-section {
+  padding: 0px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+.diff-section-wrapper {
+  display: flex;
+  padding: 0px 140px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 20px;
+  leading-trim: Cap height;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.mini-line {
+  width: 414px;
+  border: 2px solid #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.all-review-section {
+  padding: 24px 100px 36px 100px;
+}
+.all-review-section-text {
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.all-review-section-text-1 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.all-review-section-text-1 .t1 {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32.4px;
+  letter-spacing: 0%;
+}
+.all-review-section-text-1 .t2 {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: Cap height;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.6);
+}
+.all-review-section-text-2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.all-review-section-text-2 .btn-1 img {
+  display: flex;
+}
+.all-review-section-text-2 .btn-2 img {
+  display: flex;
+}
+.all-review-section-text-2 .btn-3 {
+  border-radius: 62px;
+  padding: 16px 20px;
+  background: #000000;
+  color: white;
+  font-family: Satoshi;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.6px;
+  letter-spacing: 0%;
+}
+.all-review-section-review {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+.all-review-section-review .review {
+  border-radius: 20px;
+  padding: 28px 32px;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.all-review-section-review .review-text-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.all-review-section-review .review-text-1 .star {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.all-review-section-review .review-text-1 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.all-review-section-review .review-text-1 .text .h {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.all-review-section-review .review-text-1 .text .h-1 {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-size: 20px;
+  leading-trim: Cap height;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+.all-review-section-review .review-text-1 .text .h-2 img {
+  display: flex;
+}
+.all-review-section-review .review-text-1 .text .p {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.6);
+}
+.all-review-section-review .review-text-2 {
+  font-family: Satoshi;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.6);
+}
+
 * {
   margin: 0;
   padding: 0;
