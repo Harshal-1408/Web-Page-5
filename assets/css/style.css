@@ -42,6 +42,11 @@
   letter-spacing: 0%;
   color: rgba(0, 0, 0, 0.4);
 }
+a {
+  text-decoration: none;
+  color: black;
+}
+
 @font-face {
   font-family: "satoshi";
   src: url("/assets/font/Satoshi_Complete/OTF/Satoshi-Regular.otf");
@@ -883,6 +888,83 @@
   line-height: 21.6px;
   letter-spacing: 0%;
   background-color: white;
+}
+
+.navbar-logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.you-might-also-like-section {
+  padding: 0px 100px 78px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+}
+.you-might-also-like-section-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Integral CF;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57.6px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.you-might-also-like-section .products {
+  display: flex;
+  gap: 20px;
+}
+.you-might-also-like-section .products .product {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.you-might-also-like-section .products .product img {
+  width: 100%;
+}
+.you-might-also-like-section .products .product-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.you-might-also-like-section .products .product-text h3 {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0%;
+}
+.you-might-also-like-section .products .product-text img {
+  width: 50%;
+}
+.you-might-also-like-section .products .product-text .price {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.you-might-also-like-section .products .product-text .price p {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32.4px;
+  letter-spacing: 0%;
+}
+.you-might-also-like-section .products .product-text .price .offer {
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration: line-through;
+}
+.you-might-also-like-section .products .product-text .price .percentage {
+  border-radius: 62px;
+  padding: 6px 14px;
+  background: rgba(255, 51, 51, 0.1019607843);
+  color: #ff3333;
+  font-family: Satoshi;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16.2px;
+  letter-spacing: 0%;
 }
 
 * {
