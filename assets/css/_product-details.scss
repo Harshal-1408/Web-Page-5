@@ -169,15 +169,19 @@
         align-items: center;
       }
       & .button-2 {
-        background: #000000;
-        padding: 16px 54px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        border-radius: 62px;
+        & button {
+          background: #000000;
+          padding: 16px 54px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          border-radius: 62px;
+          cursor: pointer;
+        }
         // width: 400px;
       }
+     
     }
   }
 }
