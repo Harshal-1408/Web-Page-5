@@ -1,0 +1,266 @@
+.all-product {
+  padding: 0px 100px 80px 100px;
+  display: flex;
+  gap: 20px;
+  &-filter {
+    padding: 20px 24px 29px 24px;
+    border-radius: 20px;
+    border: 1px solid #0000001a;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    height: 100%;
+    &-text {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      & .text-1 {
+        font-family: Satoshi;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0%;
+      }
+    }
+    &-category {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      & .category {
+        display: flex;
+        justify-content: space-between;
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 16px;
+        leading-trim: Cap height;
+        line-height: 21.6px;
+        letter-spacing: 0%;
+        color: #00000099;
+      }
+    }
+    &-price {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      &-text {
+        display: flex;
+        justify-content: space-between;
+        & .price-text {
+          font-family: Satoshi;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 27px;
+          letter-spacing: 0%;
+        }
+        & .cap {
+          display: flex;
+          align-items: center;
+          & img {
+            width: 100%;
+          }
+        }
+      }
+    }
+    &-colors {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      &-text {
+        display: flex;
+        justify-content: space-between;
+        & .price-text {
+          font-family: Satoshi;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 27px;
+          letter-spacing: 0%;
+        }
+        & .cap {
+          display: flex;
+          align-items: center;
+          & img {
+            width: 100%;
+          }
+        }
+      }
+    }
+    &-size {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      &-text {
+        display: flex;
+        justify-content: space-between;
+        & .price-text {
+          font-family: Satoshi;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 27px;
+          letter-spacing: 0%;
+        }
+        & .cap {
+          display: flex;
+          align-items: center;
+          & img {
+            width: 100%;
+          }
+        }
+      }
+      &-all {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 8px;
+        & .size {
+          border-radius: 62px;
+          padding: 10px 20px;
+          background: #f0f0f0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-family: Satoshi;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18.9px;
+          letter-spacing: 0%;
+          color: #00000099;
+        }
+      }
+    }
+    &-style {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      &-text {
+        display: flex;
+        justify-content: space-between;
+        & .price-text {
+          font-family: Satoshi;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 27px;
+          letter-spacing: 0%;
+        }
+        & .cap {
+          display: flex;
+          align-items: center;
+          & img {
+            width: 100%;
+          }
+        }
+      }
+    }
+    &-btn {
+      display: flex;
+      justify-content: center;
+      & button {
+        border-radius: 62px;
+        padding: 16px 54px;
+        font-family: Satoshi;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18.9px;
+        letter-spacing: 0%;
+        color: white;
+        background: #000000;
+        width: 247px;
+      }
+    }
+  }
+  &-details {
+    display: flex;
+    flex-direction: column;
+    &-text {
+      padding-bottom: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      & .text-1 {
+        font-family: Satoshi;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 43.2px;
+        letter-spacing: 0%;
+      }
+      & .text-2 {
+        display: flex;
+        gap: 12px;
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 16px;
+        leading-trim: Cap height;
+        line-height: 21.6px;
+        letter-spacing: 0%;
+        color: #00000099;
+      }
+    }
+    &-product {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      row-gap: 36px;
+      column-gap: 20px;
+      padding-bottom: 32px;
+      & .product {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        &-img {
+          & img {
+            width: 100%;
+          }
+        }
+        &-text {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          & h3 {
+            font-family: Satoshi;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 27px;
+            letter-spacing: 0%;
+          }
+          & .price {
+            display: flex;
+            gap: 10px;
+            width: 188px;
+
+            & p {
+              font-family: Satoshi;
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 32.4px;
+              letter-spacing: 0%;
+            }
+            & .offer {
+              font-family: Satoshi;
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 32.4px;
+              letter-spacing: 0%;
+              text-decoration: line-through;
+              color: #00000066;
+            }
+            & .percentage {
+              display: flex;
+              align-items: center;
+              border-radius: 62px;
+              padding: 6px 14px;
+              background: #ff33331a;
+              color: #ff3333;
+              font-family: Satoshi;
+              font-weight: 500;
+              font-size: 12px;
+              line-height: 16.2px;
+              letter-spacing: 0%;
+            }
+          }
+        }
+      }
+    }
+    &-pages {
+      display: flex;
+      padding-top: 20px;
+      justify-content: space-between;
+    }
+  }
+}
